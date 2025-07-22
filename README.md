@@ -48,7 +48,7 @@ Each script is independent and can be run separately. Follow the instructions be
 
 ## **1. Portfolio Fetcher**
 
-### **File Name**: `portfolio_fetcher.py`
+### **File Name**: `get_portfolio.py`
 
 ### **Purpose**:
 Fetches your cryptocurrency portfolio data from the CoinSwitch API and displays it in a readable format.
@@ -57,7 +57,7 @@ Fetches your cryptocurrency portfolio data from the CoinSwitch API and displays 
 1. Ensure your `.env` file is set up with your API keys.
 2. Run the script:
    ```bash
-   python portfolio_fetcher.py
+   python get_portfolio.py
    ```
 3. The script will display your portfolio data, including available balances and blocked balances for each currency.
 
@@ -78,7 +78,7 @@ Currency: Ethereum (ETH)
 
 ## **2. BTC Data Fetcher**
 
-### **File Name**: `btc_data_fetcher.py`
+### **File Name**: `get_price.py`
 
 ### **Purpose**:
 Fetches the last 60 seconds of BTC/INR data from the CoinSwitch API.
@@ -87,7 +87,7 @@ Fetches the last 60 seconds of BTC/INR data from the CoinSwitch API.
 1. Ensure your `.env` file is set up with your API keys.
 2. Run the script:
    ```bash
-   python btc_data_fetcher.py
+   python get_price.py
    ```
 3. The script will display the close price of BTC/INR for the last 60 seconds.
 
@@ -110,7 +110,7 @@ No data found for the specified duration.
 
 ## **3. BTC Limit Order Placer**
 
-### **File Name**: `btc_limit_order_placer.py`
+### **File Name**: `place_order.py`
 
 ### **Purpose**:
 Places a live limit order for BTC/INR based on the current price fetched from the CoinSwitch API.
@@ -119,7 +119,7 @@ Places a live limit order for BTC/INR based on the current price fetched from th
 1. Ensure your `.env` file is set up with your API keys.
 2. Run the script:
    ```bash
-   python btc_limit_order_placer.py
+   python place_order.py
    ```
 3. The script will:
    - Fetch the current price of BTC/INR.
