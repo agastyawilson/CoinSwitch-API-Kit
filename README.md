@@ -1,6 +1,10 @@
 # CoinSwitch-API-Kit
 
-Welcome to the repository! This project contains **three pieces of code** that interact with the CoinSwitch API to fetch cryptocurrency data, manage portfolios, and even place live trades. While I have little to no experience with coding, this has been a journey of "vibe code magic", experimentation, and learning as I go. Please use this code responsibly and follow the instructions below to set it up and run it.
+Welcome to the repository! This project contains **three pieces of code** that interact with the CoinSwitch API to fetch cryptocurrency data, manage portfolios, and even place live trades. While I have little to no experience with coding, this has been a journey of "vibe code magic", experimentation, and learning as I go. 
+
+While the scripts are written specifically for BTC/INR, you can easily adapt them to work with any trading pair supported by the CoinSwitch API. Just replace "BTC/INR" with the symbol of your choice (e.g., "ETH/USDT", "DOGE/INR", etc.), and you’re good to go!
+
+Please use this code responsibly and follow the instructions below to set it up and run it.
 
 ---
 
